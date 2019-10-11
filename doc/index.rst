@@ -1,20 +1,32 @@
-.. pyExceptions documentation master file, created by
-   sphinx-quickstart on Fri Oct 11 13:16:47 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+pyExceptions Documentation
+##########################
 
-Welcome to pyExceptions's documentation!
-========================================
+An exceptions base-class to derive more powerful exceptions.
+
+
+
+
+
+
+
+------------------------------------
+
+.. |docdate| date:: %b %d, %Y - %H:%M
+
+.. only:: html
+
+   This document was generated on |docdate|.
+
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: Exception Classes:
+   :hidden:
 
+   ExecptionBase
 
+.. toctree::
+   :caption: Appendix
+   :hidden:
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   genindex
+   py-modindex

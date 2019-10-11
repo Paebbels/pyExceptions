@@ -10,9 +10,12 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('../pyExceptions'))
+#sys.path.insert(0, os.path.abspath('_extensions'))
+#sys.path.insert(0, os.path.abspath('_themes/sphinx_rtd_theme'))
 
 
 # -- Project information -----------------------------------------------------
@@ -31,7 +34,25 @@ release = 'v0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+# Sphinx theme
 	"sphinx_rtd_theme",
+# Standard Sphinx extensions
+	"sphinx.ext.autodoc",
+	'sphinx.ext.extlinks',
+	'sphinx.ext.intersphinx',
+	'sphinx.ext.inheritance_diagram',
+	'sphinx.ext.todo',
+	'sphinx.ext.graphviz',
+	'sphinx.ext.mathjax',
+	'sphinx.ext.ifconfig',
+	'sphinx.ext.viewcode',
+# SphinxContrib extensions
+
+# Other extensions
+#	'DocumentMember',
+# local extensions (patched)
+
+# local extensions
 ]
 
 # Add any paths that contain templates here, relative to this directory.
