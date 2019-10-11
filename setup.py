@@ -44,7 +44,7 @@ with open("README.md", "r") as file:
 
 setuptools.setup(
 	name="pyExceptions",
-	version="0.1.0",
+	version="0.1.1",
 	author="Patrick Lehmann",
 	author_email="Paebbels@gmail.com",
 	description="An exceptions base-class to derive more powerful exceptions.",

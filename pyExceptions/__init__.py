@@ -34,7 +34,7 @@
 # limitations under the License.
 # ==============================================================================
 #
-from lib.SphinxExtensions.SphinxExtensions import DocumentMemberAttribute
+from SphinxExtensions import DocumentMemberAttribute
 
 
 __api__ = [
