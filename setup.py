@@ -47,12 +47,14 @@ with open("requirements.txt") as file:
 	for line in file.readlines():
 		requirements.append(line)
 
-github_project="pyExceptions"
-github_url="https://github.com/Paebbels/" + github_project
+projectName = "pyExceptions"
+
+github_url =  "https://github.com/Paebbels/" + projectName
+rtd_url =     "https://" + projectName + ".readthedocs.io/en/latest/"
 
 setuptools.setup(
-	name=github_project,
-	version="0.1.2",
+	name=projectName,
+	version="0.1.3",
 
 	author="Patrick Lehmann",
 	author_email="Paebbels@gmail.com",
@@ -63,7 +65,7 @@ setuptools.setup(
 
 	url=github_url,
 	project_urls={
-		'Documentation': "",
+		'Documentation': rtd_url,
 		'Source Code':   github_url,
 		'Issue Tracker': github_url + "/issues"
 	},
