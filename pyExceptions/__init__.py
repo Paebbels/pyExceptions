@@ -1,7 +1,6 @@
 # EMACS settings: -*-	tab-width: 2; indent-tabs-mode: t; python-indent-offset: 2 -*-
 # vim: tabstop=2:shiftwidth=2:noexpandtab
 # kate: tab-width 2; replace-tabs off; indent-width 2;
-#
 # =============================================================================
 #              _____                    _   _
 #  _ __  _   _| ____|_  _____ ___ _ __ | |_(_) ___  _ __  ___
@@ -9,11 +8,10 @@
 # | |_) | |_| | |___ >  < (_|  __/ |_) | |_| | (_) | | | \__ \
 # | .__/ \__, |_____/_/\_\___\___| .__/ \__|_|\___/|_| |_|___/
 # |_|    |___/                   |_|
-#
 # ==============================================================================
-# Authors:          Patrick Lehmann
+# Authors:            Patrick Lehmann
 #
-# Python Module:    This module contains exception base classes and common exceptions.
+# Python Module:      This module contains exception base classes and common exceptions.
 #
 # License:
 # ==============================================================================
@@ -32,6 +30,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
 # ==============================================================================
 #
 from SphinxExtensions import DocumentMemberAttribute
