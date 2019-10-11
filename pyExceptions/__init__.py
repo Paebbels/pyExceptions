@@ -47,8 +47,8 @@ __all__ = __api__
 
 
 class ExceptionBase(Exception):
-	"""Base exception derived from :py:exc:`pyExceptions` for all
-	custom exceptions in pyIPCMI.
+	"""Base exception derived from :python:exc:`Exception` for all
+	custom exceptions.
 	"""
 	@DocumentMemberAttribute()
 	def __init__(self, message=""):

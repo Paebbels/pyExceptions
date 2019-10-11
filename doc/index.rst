@@ -1,11 +1,7 @@
 pyExceptions Documentation
 ##########################
 
-An exceptions base-class to derive more powerful exceptions.
-
-
-
-
+An exception base-class to derive more powerful exceptions.
 
 
 

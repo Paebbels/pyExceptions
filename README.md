@@ -9,11 +9,14 @@
 
 # pyExceptions
 
-Description
+An exception base-class to derive more powerful exceptions.
 
 
-# List of Authors and Contributors (in alphabetical order)
+## Contributors:
 
-Contributor       | Contact E-Mail
-------------------|------------------------------------------------------------
-Lehmann, Patrick  | Patrick.Lehmann@plc2.de; Paebbels@gmail.com
+* [Patrick Lehmann](https://github.com/Paebbels) (Maintainer)
+
+
+## License
+
+This library is licensed under [Apache License 2.0](LICENSE.md)
