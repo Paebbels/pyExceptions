@@ -42,15 +42,32 @@ import setuptools
 with open("README.md", "r") as file:
 	long_description = file.read()
 
+requirements = []
+with open("requirements.txt") as file:
+	for line in file.readlines():
+		requirements.append(line)
+
+github_project="pyExceptions"
+github_url="https://github.com/Paebbels/" + github_project
+
 setuptools.setup(
-	name="pyExceptions",
-	version="0.1.1",
+	name=github_project,
+	version="0.1.2",
+
 	author="Patrick Lehmann",
 	author_email="Paebbels@gmail.com",
+
 	description="An exceptions base-class to derive more powerful exceptions.",
 	long_description=long_description,
 	long_description_content_type="text/markdown",
-	url="https://github.com/Paebbels/pyExceptions",
+
+	url=github_url,
+	project_urls={
+		'Documentation': "",
+		'Source Code':   github_url,
+		'Issue Tracker': github_url + "/issues"
+	},
+
 	packages=setuptools.find_packages(),
 	classifiers=[
 		"License :: OSI Approved :: Apache Software License",
@@ -63,4 +80,5 @@ setuptools.setup(
 		"Topic :: Utilities"
 	],
 	python_requires='>=3.5',
+	install_requires=requirements,
 )
