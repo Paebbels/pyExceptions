@@ -11,6 +11,24 @@ An exception base-class to derive more powerful exceptions.
    :top-classes: pyExceptions.EnvironmentException pyExceptions.PlatformNotSupportedException pyExceptions.NotConfiguredException
    :parts: 1
 
+Installation/Updates
+********************
+
+Installation using PIP
+======================
+
+.. code-block:: bash
+
+   pip3 install pyExceptions
+
+
+Updating using PIP
+==================
+
+.. code-block:: bash
+
+   pip3 install -U pyExceptions
+
 ------------------------------------
 
 .. |docdate| date:: %b %d, %Y - %H:%M
@@ -21,7 +39,7 @@ An exception base-class to derive more powerful exceptions.
 
 
 .. toctree::
-   :caption: Exception Classes:
+   :caption: Exception Classes
    :hidden:
 
    ExecptionBase
