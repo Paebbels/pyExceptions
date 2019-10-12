@@ -51,7 +51,7 @@ rtd_url =     "https://" + projectName + ".readthedocs.io/en/latest/"
 
 setuptools.setup(
 	name=projectName,
-	version="0.1.6",
+	version="0.1.7",
 
 	author="Patrick Lehmann",
 	author_email="Paebbels@gmail.com",
@@ -71,6 +71,7 @@ setuptools.setup(
 	classifiers=[
 		"License :: OSI Approved :: Apache Software License",
 		"Operating System :: OS Independent",
+		"Programming Language :: Python :: 3 :: Only",
 		"Programming Language :: Python :: 3.5",
 		"Programming Language :: Python :: 3.6",
 		"Programming Language :: Python :: 3.7",
