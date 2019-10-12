@@ -3,7 +3,13 @@ pyExceptions Documentation
 
 An exception base-class to derive more powerful exceptions.
 
+.. admonition:: Exception Hierarchies
 
+   Write how to plan and implement an exception hierarchy.
+
+.. inheritance-diagram:: Exception hierarchy
+   :top-classes: pyExceptions.EnvironmentException pyExceptions.PlatformNotSupportedException pyExceptions.NotConfiguredException
+   :parts: 1
 
 ------------------------------------
 
@@ -19,6 +25,7 @@ An exception base-class to derive more powerful exceptions.
    :hidden:
 
    ExecptionBase
+   Predefined
 
 .. toctree::
    :caption: Appendix
