@@ -47,7 +47,7 @@ __all__ = __api__
 
 
 class ExceptionBase(Exception):
-	"""Base exception derived from :python:exc:`Exception` for all
+	"""Base exception derived from :py:exc:`Exception <python:Exception>` for all
 	custom exceptions.
 	"""
 	@DocumentMemberAttribute()

@@ -51,10 +51,12 @@ rtd_url =     "https://" + projectName + ".readthedocs.io/en/latest/"
 
 setuptools.setup(
 	name=projectName,
-	version="0.1.7",
+	version="0.1.8",
 
 	author="Patrick Lehmann",
 	author_email="Paebbels@gmail.com",
+	# maintainer="Patrick Lehmann",
+	# maintainer_email="Paebbels@gmail.com",
 
 	description="An exceptions base-class to derive more powerful exceptions.",
 	long_description=long_description,
@@ -66,6 +68,7 @@ setuptools.setup(
 		'Source Code':   github_url,
 		'Issue Tracker': github_url + "/issues"
 	},
+	# download_url="",
 
 	packages=setuptools.find_packages(),
 	classifiers=[
@@ -79,6 +82,10 @@ setuptools.setup(
 		"Development Status :: 5 - Production/Stable",
 		"Topic :: Utilities"
 	],
+	keywords="Python3 Exceptions",
+
 	python_requires='>=3.5',
 	install_requires=requirements,
+	# provides=
+	# obsoletes=
 )
