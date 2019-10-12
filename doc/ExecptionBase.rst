@@ -3,6 +3,6 @@ ExceptionBase
 
 This is the base class for all exceptions.
 
-.. autoclass:: pyExceptions.ExceptionBase
+.. autoexception:: pyExceptions.ExceptionBase
    :members:
    :private-members:

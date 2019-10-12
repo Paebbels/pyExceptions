@@ -7,7 +7,7 @@ A list of predefined exceptions.
 EnvironmentException
 ********************
 
-.. autoclass:: pyExceptions.EnvironmentException
+.. autoexception:: pyExceptions.EnvironmentException
    :members:
    :private-members:
 
@@ -15,7 +15,7 @@ EnvironmentException
 PlatformNotSupportedException
 *****************************
 
-.. autoclass:: pyExceptions.PlatformNotSupportedException
+.. autoexception:: pyExceptions.PlatformNotSupportedException
    :members:
    :private-members:
 
@@ -23,7 +23,7 @@ PlatformNotSupportedException
 NotConfiguredException
 **********************
 
-.. autoclass:: pyExceptions.NotConfiguredException
+.. autoexception:: pyExceptions.NotConfiguredException
    :members:
    :private-members:
 
