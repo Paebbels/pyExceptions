@@ -47,13 +47,14 @@ __all__ = __api__
 
 
 class ExceptionBase(Exception):
-	"""Base exception derived from :py:exc:`Exception <python:Exception>` for all
+	"""
+	Base exception derived from :py:exc:`Exception <python:Exception>` for all
 	custom exceptions.
 	"""
+
 	@DocumentMemberAttribute()
-	def __init__(self, message=""):
+	def __init__(self, message : str =""):
 		"""pyExceptions initializer
-		:type  message:   str
 		:param message:   The exception message.
 		"""
 		super().__init__()
