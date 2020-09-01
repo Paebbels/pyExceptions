@@ -55,16 +55,16 @@ if __name__ == "__main__":
 	exit(1)
 
 def raise_EnvironmentExecption():
-	raise EnvironmentException()
+	raise EnvironmentException("Environment does not provide 'PATH'.")
 
 def raise_PlatformNotSupportedException():
-	raise PlatformNotSupportedException()
+	raise PlatformNotSupportedException("Platform 'OSX' is not supported.")
 
 def raise_NotConfiguredException():
-	raise NotConfiguredException()
+	raise NotConfiguredException("Option 'WorkingDirectory' is not specified in the configuration file.")
 
 
-class CallByReference_AnyParam(TestCase):
+class Exceptions(TestCase):
 	def test_EnvironmentException(self):
 		with self.assertRaises(EnvironmentException):
 			raise_EnvironmentExecption()
