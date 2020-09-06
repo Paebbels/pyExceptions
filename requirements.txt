@@ -1,1 +1,1 @@
-SphinxExtensions
+SphinxExtensions>=0.2.0
